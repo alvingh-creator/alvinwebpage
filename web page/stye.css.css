@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo{
+    height: 24px;
+    width: 130;
+   
+}
+.nav .nav-lists {
+    font-family: 'popins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.auth-btns {
+    font-family: 'popins', sans-serif;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 16px;
+    justify-content: flex-end;
+}
+
+
+.signup-btn{
+    background-color: hsl(24, 100%, 57%);#ff6600;
+    color: white;
+    border-radius: 3px;
+    border: 10px;
+    font-weight: bold;
+    padding: 12px 30px;
+    box-shadow: 0 0 25px rgba(230, 92, 0, 0.4);
+}
+
+.login-btn{
+    color: hsl(24, 100%, 57%);
+    font-weight: bold;
+    
+}
+
+.hero{
+    display: flex;
+    padding: 80px ;
+    flex: 1;
+}
+
+.hero-1{
+    max-width: 1200px;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    font-size: 30px;
+}
+
+.hero-1 h1{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.hero-1 h1 span{
+    color:hsl(24, 100%, 57%)
+}
+
+.hero p{
+    font-size: 20px;
+    word-spacing: 8px;
+    margin: 20px 0;
+    font-family: 'popins', sans-serif;
+    color: grey;
+    line-height: 1.6;
+}
+
+.discover-btn{
+    font-size: 18px;
+    color: aliceblue;
+    padding: 12px 28px;
+    font-family: 'popins', sans-serif;
+    border: solid  hsl(24, 100%, 57%);#ff6600 ;
+    background-color:  hsl(24, 100%, 57%);#ff6600;
+    border-radius: 8px;
+    box-shadow: 0 0 25px rgba(230, 92, 0, 0.4);
+}
+
+.hero-image img{
+    flex: 1;
+    width: 600px;
+    max-width: 100%;
+}
