@@ -44,7 +44,7 @@ a{
 
 
 .signup-btn{
-    background-color: hsl(24, 100%, 57%);#ff6600;
+    background-color: hsl(24, 100%, 57%);
     color: white;
     border-radius: 3px;
     border: 10px;
@@ -98,8 +98,8 @@ a{
     color: aliceblue;
     padding: 12px 28px;
     font-family: 'popins', sans-serif;
-    border: solid  hsl(24, 100%, 57%);#ff6600 ;
-    background-color:  hsl(24, 100%, 57%);#ff6600;
+    border: solid  hsl(24, 100%, 57%); 
+    background-color:  hsl(24, 100%, 57%);
     border-radius: 8px;
     box-shadow: 0 0 25px rgba(230, 92, 0, 0.4);
 }
