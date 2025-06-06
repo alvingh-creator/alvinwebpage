@@ -109,3 +109,107 @@ a{
     width: 600px;
     max-width: 100%;
 }
+
+
+.second-page {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.para h1{
+    font-size: 48px;
+}
+
+.para h1 span{
+    color:hsl(24, 100%, 57%)
+}
+
+.para p{
+    font-size: 16px;
+    word-spacing: 2px;
+    margin: 10px 0;
+    font-family: 'popins', sans-serif;
+    color: grey;
+}
+
+.imgs2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.imgs2 img{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.third-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.para h1 span{
+    color:color:hsl(24, 100%, 57%);
+}
+
+.para p{
+    font-family: 'popins', sans-serif;
+
+}
+
+.third-im img{
+    margin-top: 20px;
+    width: 850px;
+    height: auto;
+    object-fit: cover;
+}
+
+.slidbar img{
+    display:flex;
+    align-items: center;
+    width: 50px;
+}
+
+.fourthpage{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ .fourthpage h1{
+    font-size: 60px;
+ }
+
+.para h1 span {
+    color:color:hsl(24, 100%, 57%) ;
+}
+.para p{
+    font-family: 'popins', sans-serif;
+
+}
+
+.fourthim {
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.fourthim img{
+     width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
